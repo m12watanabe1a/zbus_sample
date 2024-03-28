@@ -1,0 +1,16 @@
+manifest:
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+    - name: h6x
+      url-base: https://github.com/HarvestX
+  projects:
+    - name: zephyr
+      remote: zephyrproject-rtos
+      revision: v3.5.0
+      import:
+        name-allowlist:
+          - cmsis
+          - edtt
+          - hal_stm32
+

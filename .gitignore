@@ -1,0 +1,18 @@
+# editors
+*.vc.db*
+*.swp
+*~
+
+# python
+.venv
+
+# build
+build*
+twister-out*
+
+__pycache__/
+
+manifest-tmp
+# LOG
+*.log
+

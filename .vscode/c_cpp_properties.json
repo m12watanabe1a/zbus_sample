@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "Zephyr",
+      "includePath": [
+        "${workspaceFolder}/../zephyr/include",
+        "${workspaceFolder}/../zephyr/soc/arm/st_stm32/common",
+        "${workspaceFolder}/../zephyr/soc/arm/st_stm32/stm32f4",
+        "${workspaceFolder}/../zephyr/subsys/testsuite/include/**",
+        "${workspaceFolder}/../zephyr/subsys/testsuite/ztest/include/**",
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/build/zephyr/include/generated"
+      ],
+      "cStandard": "c99",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
