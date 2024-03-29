@@ -1,8 +1,8 @@
-.PHONY build
+.PHONY: build
 build:
 	west build -b qemu_cortex_m3 .
 
-.PHONY run
+.PHONY: run
 run:
 	west build -t run
 

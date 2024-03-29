@@ -30,6 +30,7 @@ static void thread_pub(void *p1, void *p2, void *p3)
 	const char *name = (char *)p1;
   const struct int_evt *evt = (struct int_evt *)p2;
   LOG_INF("Create thread [%s]", name);
+	k_sleep(K_SECONDS(2));
 
 	for (;;) {
 		LOG_DBG("Spin [%s]", name);

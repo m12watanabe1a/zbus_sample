@@ -26,6 +26,7 @@ static void thread_sub(void *p1, void *p2, void *p3)
 	ARG_UNUSED(p2);
 	ARG_UNUSED(p3);
 	LOG_INF("Create thread [sub]");
+	k_sleep(K_SECONDS(2));
 
 	for (;;) {
 		LOG_DBG("spin sub");
